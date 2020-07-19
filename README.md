@@ -2,17 +2,6 @@
 
 # Atlan Backend Internship Task -
 
-## To run project 
-### with docker :-
-#### simply run these commands inside project directory <br/>
-```docker-compose build``` <br/>
-```docker-compose up``` <br/>
-
-### without docker :-
-#### simply run these commands inside project directory <br/>
-```npm install``` <br/>
-```npm start``` <br/>
-
 ## API calls :-
 ### 1). POST /upload
 Body (in form-data format): file <br/>
@@ -81,3 +70,15 @@ from the Job queue, since it is terminated. <br/>
 ● Listen to events and handle them. <br/>
 ● When file ‘abort’ is triggered, destroy the stream and delete the
 dataStream instance in Job queue because it is no longer required. <br/>
+
+## Installation Steps 
+### with docker :-
+#### simply run these commands inside project directory <br/>
+```docker-compose build``` <br/>
+```docker-compose up``` <br/>
+
+### without docker :-
+#### simply run these commands inside project directory <br/>
+```npm install``` <br/>
+```npm start``` <br/>
+
