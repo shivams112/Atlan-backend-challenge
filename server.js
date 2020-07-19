@@ -16,7 +16,7 @@ app.use("/upload", uploadRoutes);
 app.use("/export", exportRoutes);
 app.get("/", (req, res) => {
   res.send(
-    "Here's the list of routes:<br />POST  /upload <br />DELETE  /upload/terminate <br />POST  /export <br /> DELETE  /export/terminate"
+    "Here's the list of routes:<br />POST  /upload <br />DELETE  /upload/terminate <br />POST  /export <br /> POST  /export/terminate"
   );
 });
 
