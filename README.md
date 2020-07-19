@@ -1,6 +1,18 @@
 ![export file process](https://github.com/shivams112/Atlan-backend-challenge/blob/master/images/atlan.png) <br />
 
 # Atlan Backend Internship Task -
+
+## To run project 
+### with docker :-
+#### simply run these commands inside project directory <br/>
+```docker-compose build``` <br/>
+```docker-compose up``` <br/>
+
+### without docker :-
+#### simply run these commands inside project directory <br/>
+```npm install``` <br/>
+```npm start``` <br/>
+
 ## API calls :-
 ### 1). POST /upload
 Body (in form-data format): file <br/>
